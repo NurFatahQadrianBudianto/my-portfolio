@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nur Fatah Qadrian | Portofolio</title>
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -16,21 +17,31 @@
             }
         }
     </script>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="bg-dark text-slate-300 antialiased leading-relaxed">
 
     <nav id="navbar" class="fixed w-full z-50 nav-transparent transition-all duration-300 py-6">
         <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-white tracking-widest">Fatah <span class="text-primary">PORTFOLIO</span></a>
-            <div class="hidden md:flex space-x-8 text-sm font-semibold">
-                <a href="#hero" class="hover:text-primary transition-colors">Beranda</a>
-                <a href="#about" class="hover:text-primary transition-colors">Tentang</a>
-                <a href="#projects" class="hover:text-primary transition-colors">Proyek</a>
-                <a href="#experience" class="hover:text-primary transition-colors">Pengalaman</a>
+            <a href="#" class="text-xl font-bold text-white tracking-widest">Fatah <span
+                    class="text-primary">PORTFOLIO</span></a>
+            <div class="flex items-center space-x-8 text-sm font-semibold">
+                <div class="hidden md:flex space-x-8">
+                    <a href="#hero" class="hover:text-primary transition-colors">Beranda</a>
+                    <a href="#about" class="hover:text-primary transition-colors">Tentang</a>
+                    <a href="#projects" class="hover:text-primary transition-colors">Proyek</a>
+                    <a href="#experience" class="hover:text-primary transition-colors">Pengalaman</a>
+                </div>
+                
+                <div class="flex items-center gap-1.5 font-mono text-xs bg-slate-800/60 px-2.5 py-1 rounded-full border border-slate-700/30">
+                    <button id="btn-id" class="text-primary font-bold focus:outline-none transition-colors">ID</button>
+                    <span class="text-slate-600">|</span>
+                    <button id="btn-en" class="text-slate-400 hover:text-white focus:outline-none transition-colors">EN</button>
+                </div>
             </div>
         </div>
     </nav>
@@ -38,16 +49,22 @@
     <header id="hero" class="min-h-screen flex items-center pt-20">
         <div class="max-w-6xl mx-auto px-6 w-full">
             <p class="text-primary font-mono mb-4">Halo.. Perkenalkan Saya,</p>
-            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">Nur Fatah Qadrian Budianto</h1>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">Nur Fatah Qadrian Budianto
+            </h1>
             <h2 class="text-4xl md:text-6xl font-bold text-slate-500 mb-6">Engineer</h2>
             <p class="max-w-2xl text-lg text-slate-400 mb-10 leading-relaxed">
-                Lulusan Sarjana Terapan Teknik Telekomunikasi Departemen Teknik Elektro dari PENS. Berpengalaman dalam Web Development, IT Support, dan Robot Development. Terlatih menganalisis kerangka program, riset, serta pengembangan di bidang IT, Robotika, IoT, dan AI.
+                Lulusan Sarjana Terapan Teknik Telekomunikasi Departemen Teknik Elektro dari Politeknik Elektronika
+                Negeri Surabaya. Berpengalaman dalam Web Development, IT Support, IoT dan Robot Development. Terlatih
+                menganalisis kerangka program, riset karya ilmiah, serta pengembangan di bidang IT, Robotika, IoT, dan
+                AI.
             </p>
             <div class="flex space-x-4">
-                <a href="mailto:cvpnurfatahqb@gmail.com" class="bg-primary text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-teal-400 transition-all duration-300 shadow-[0_0_15px_rgba(20,184,166,0.3)]">
+                <a href="mailto:cvpnurfatahqb@gmail.com"
+                    class="bg-primary text-slate-900 font-bold py-3 px-8 rounded-lg hover:bg-teal-400 transition-all duration-300 shadow-[0_0_15px_rgba(20,184,166,0.3)]">
                     Kirim Email
                 </a>
-                <a href="assets/docs/cv-nurfatah.pdf" download class="border border-primary text-primary font-bold py-3 px-8 rounded-lg hover:bg-primary/10 transition-all duration-300">
+                <a href="assets/docs/cv-nurfatah.pdf" download
+                    class="border border-primary text-primary font-bold py-3 px-8 rounded-lg hover:bg-primary/10 transition-all duration-300">
                     Unduh CV
                 </a>
             </div>
@@ -60,11 +77,12 @@
 
     <footer class="py-8 text-center border-t border-slate-800 bg-dark mt-12">
         <p class="text-slate-500 font-mono text-sm">
-            "Sendiri Mungkin Lebih Cepat, Namun Bersama Bisa Melangkah Lebih Jauh"
+            "Sendiri Mungkin Lebih Cepat, Namun Bersama Kita Bisa Melangkah Lebih Jauh"
             <span class="text-slate-600 mt-2 block">&copy; 2026 Nur Fatah Qadrian Budianto</span>
         </p>
-    </footer>
+    </footer >
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
